@@ -12,6 +12,7 @@ Technologies Used:
 - Spark Core
 - Spark SQL
 - Resilient Distributed Datasets (RDDs)
+- DataSets
 - Java 1.8
 
 Preprocessing:
