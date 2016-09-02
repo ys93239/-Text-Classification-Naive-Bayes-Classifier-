@@ -32,10 +32,22 @@ Smoothing:
 Applied to the testing subsets to avoid the worst case of 0 probability for a word that appears in the testing subsets but was not in the training subset.
 
 Flow:
-The program takes the following 5 arguments as inputs
-arg0 = location of test input file 
-arg1 = location of classifer file
-arg2 = loaction of vocabulary probablity file
-arg4 = specify the mode whether its the training or testing mode
-arg5 = location of output file
+The programe works in two different modes (LEARNING and TESTING) that are specified during the execution of the programe though command line arguments.
+LEARNING:-takes 4 command line arguments:-
+args[0]- path of the trainer file
+args[1]- path of the classifer file (Classifed lables)
+args[2]- path to store the vocab probability file
+args[3]- path to store the lable probability file
+args[4]- LEARNING 
+
+TESTING:-takes 4 command line arguments:- 
+args[0]- path of the test file
+args[1]- path of vocab probablity file that was generated using the LEARNING mode
+args[2]- path of lable probablity file that was generated using the LEARNING mode
+args[3]- path to store the final file that contains the classification for every document
+args[4]- TESTING
+
+Instructions to install and run the programe:-
+To run the programe, download the .jar file from Github and execute it using Java8 providing the correct command line arguments.
+ 
 
